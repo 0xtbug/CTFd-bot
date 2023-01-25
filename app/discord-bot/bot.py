@@ -13,7 +13,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 start_time = time.time()
 
-# Set configuration for discord-
+# Set configuration for discord-bot
 url = ""
 pages = 1
 session_cookie = ""

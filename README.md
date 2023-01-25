@@ -26,7 +26,7 @@ Start bot
 ```text
 docker-compose up --build -d
 ```
-restart bot
+Restart bot
 ```text
 docker-compose restart
 ```

@@ -4,11 +4,10 @@ services:
   webhook:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: app/webhook/Dockerfile
     volumes:
-      - ./app/webhook/data:/app/data
+      - ./app/webhook/data:/app/webhook/data
   bot:
     build:
       context: .
-      dockerfile: Dockerfile
-    command: python /app/discord-bot/bot.py
+      dockerfile: app/discord-bot/Dockerfile
